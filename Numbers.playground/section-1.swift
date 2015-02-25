@@ -2,5 +2,4 @@
 
 import UIKit
 
-println("List:\n1\t\n2\tBananas\n6\tOranges")
-
+let
