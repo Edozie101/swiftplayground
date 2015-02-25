@@ -7,3 +7,4 @@ var todo : [String]  = ["Return Calls", "Write a Blogpost"]
 
 todo += ["Pickup Laundry", "Buy Bulbs"]
 
+todo.count
