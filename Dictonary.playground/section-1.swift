@@ -30,3 +30,16 @@ countries["US"] = "United States of America"
 
 let item = countries.removeValueForKey("CA")
 
+var songOne = ["title" : "Sure Thing, Scientific remix", "artist" : "Miguel (remixed by Scientific)", "album" : "Rhythm Music"]
+
+var songTwo = ["title" : "Cosmo Canyon", "artist" : "MNSTRMKK", "album" : "Rhythm Music"]
+
+var songThree = ["title" : "Stay Trippy", "artist": "Juicy J", "album" : "Arturs Karlins"]
+
+var songFour = ["title" : "Promises I Need To Keep", "artist" : "Daktyl", "album" : "Rhythm Music"]
+
+var songFive = ["title" : "Such a Square", "artist" : "Flying Lotus", "album" : "Rhythm Music"]
+
+let playlist =  [songOne, songTwo, songThree,songFour, songFive]
+
+playlist[0]["title"]
