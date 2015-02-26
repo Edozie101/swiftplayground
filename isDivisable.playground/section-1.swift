@@ -20,4 +20,4 @@ func isDivisable(#firstNumber: Int, #secondNumber: Int) -> (result : Bool?, desc
 }
 
 
-isDivisable(firtNumber: 2, secondNumber: 3 )
+isDivisable(firstNumber: 2, secondNumber: 3 )
