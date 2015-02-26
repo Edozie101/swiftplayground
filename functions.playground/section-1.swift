@@ -15,11 +15,11 @@ func whatever(a:String) {
 whatever("Facebook")
 
 
-func calculateArea(height: Int, width: Int) ->Int {
+func calculateArea(#height: Int, #width: Int) ->Int {
    return height * width
 }
 
-calculateArea(100, 20)
+calculateArea(height: 100, width: 20)
 
 
 // functions should start with a letter not a number 
@@ -27,6 +27,20 @@ calculateArea(100, 20)
 // the name should describe the purpose of the function 
 
 
-calculateArea(20, 100000)
+calculateArea(height: 20, width: 100000)
 
-println("Area is = to \( calculateArea(100, 100 ))")
+println("Area is = to \( calculateArea(height: 100, width: 100 ))")
+
+func greeting(person: String) -> String {
+    return "\(person)"
+}
+
+
+func fullname(firstName:String,secondName:String) -> String{
+    return "\(firstName) \(secondName)"
+    
+}
+
+
+fullname("Edozie","Izegbu")
+
