@@ -20,7 +20,7 @@ func isDivisable(#firstNumber: Int, #secondNumber: Int) -> (result : Bool?, desc
 }
 
 
-if let isDivisable(firstNumber: 2, secondNumber: 2 ) {
+if let isDivisable(firstNumber: 3, secondNumber: 2 ) {
     println("Its true")
     
 } else {
