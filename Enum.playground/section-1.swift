@@ -1,32 +1,26 @@
-// Playground - noun: a place where people can play
-
+// DaysInWeek
 import UIKit
 
 var str = "Hello, playground"
 
 
-func IsDivisable ( #Divisor: Int, #Dividend: Int ) -> Bool? {
+let days = ["Monday","Tuedays" , "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
-    
-    
-    if Divisor % Dividend == 0 {
-        println("\(Divisor) is Divisable by \(Dividend)")
-        return true
-    }
-    else    {
-        return false
-    
+func weekdayOrWeekend(dayOfweek: String) -> String{
+
+    switch dayOfweek{
+        case "Monday","Tuedays" , "Wednesday", "Thursday", "Friday":
+            return "Its a weekday"
+
+        case "Saturday", "Sunday":
+            return "YAY Its the weekend"
+     default:
+        return "Not a valid day"
     }
 
 }
 
-
-var companies : [String] = []
-
-companies.append("Google")
-
-companies.append("Twitter")
+weekdayOrWeekend(days[6])
 
 
-
-companies.insert("Youtube", atIndex: 2)
+enum
